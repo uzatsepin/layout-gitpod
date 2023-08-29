@@ -1,0 +1,65 @@
+.example {
+    margin-top: 18px;
+    padding: 160px 0;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 73px;
+    }
+    &__text {
+        max-width: 648px;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+        &-title {
+            color: $black;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 40px;
+        }
+        &-descr {
+            margin-top: 8px;
+            color: rgba(18, 16, 12, 0.7);
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 31.92px;
+        }
+        &-btns {
+            margin-top: auto;
+            display: flex;
+            gap: 16px;
+            &-btn {
+                padding: 7px 18px 9px 18px;
+                border-radius: 10.5px;
+                box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+                color: $black;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 16px;
+                &.doc {
+                    background: #ffb0ae;
+                    transition: all 250ms ease-in-out;
+                    &:hover {
+                        cursor: pointer;
+                        background: #ffc5c4;
+                    }
+                }
+                &.more {
+                    background: #ffae33;
+                    transition: all 250ms ease-in-out;
+                    &:hover {
+                        cursor: pointer;
+                        background: #fcbc5b;
+                    }
+                }
+            }
+        }
+    }
+    &__img {
+        max-width: 590px;
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
