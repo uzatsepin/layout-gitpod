@@ -1,0 +1,43 @@
+.header {
+    height: 80px;
+    max-width: 1440px;
+    padding: 20px 32px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav {
+        &-menu {
+            display: flex;
+            gap: 48px;
+            &-item {
+                &-link {
+                    color: rgba(18, 16, 12, 0.7);
+                    font-size: 16px;
+                    line-height: 24px;
+                    transition: all 250ms ease-in-out;
+                    padding-bottom: 2px;
+                    border-bottom: 1px solid transparent;
+                    &:hover {
+                        color: $black;
+                        border-bottom: 1px solid $black;
+                    }
+                }
+            }
+        }
+    }
+    &__btn {
+        color: $footerBg;
+        padding: 6px 22px;
+        font-size: 14px;
+        line-height: 20px;
+        background-color: $black;
+        border-radius: 12px;
+        transition: all 250ms ease-in-out;
+        &:hover {
+            cursor: pointer;
+            background-color: #12100cb2;
+        }
+    }
+}

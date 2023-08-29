@@ -1,2 +1,16 @@
-@import "./settings/reset";
-@import "./settings/normalize";
+@import './settings/reset';
+@import './settings/normalize';
+@import './variables';
+@import './components/header';
+@import './components/hero';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: $background;
+}
+
+.container {
+    max-width: 1330px;
+    padding: 0 10px;
+    margin: 0 auto;
+}

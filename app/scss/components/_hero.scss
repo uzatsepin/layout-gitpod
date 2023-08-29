@@ -1,0 +1,83 @@
+.hero {
+    margin-top: 32px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    &__info {
+        max-width: 550px;
+        &-text {
+            &-title {
+                color: #12100c;
+                font-size: 80px;
+                font-weight: 700;
+                line-height: 88px;
+                margin: 0;
+            }
+            &-descr {
+                margin-top: 38px;
+                color: rgba(18, 16, 12, 0.7);
+                font-size: 23px;
+                font-weight: 400;
+                line-height: 31.92px;
+                max-width: 460px;
+            }
+        }
+        &-action {
+            display: flex;
+            gap: 24px;
+            margin-top: 48px;
+            &-btn {
+                border-radius: 16px;
+                background: #ffae33;
+                box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+                padding: 11px 46px;
+                color: $black;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25.5px;
+                max-width: 160px;
+                transition: all 250ms ease-in-out;
+                &:hover {
+                    cursor: pointer;
+                    background: #ffbb55;
+                }
+            }
+            &-descr {
+                color: rgba(18, 16, 12, 0.7);
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+        &-company {
+            margin-top: 18px;
+            display: flex;
+            gap: 28px;
+            &-logo {
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                height: 29px;
+                width: 29px;
+                &.gitlab {
+                    background-image: url('../../images/gitlab.svg');
+                }
+                &.github {
+                    background-image: url('../../images/github.svg');
+                }
+                &.gitbucket {
+                    background-image: url('../../images/gitbucket.svg');
+                }
+            }
+        }
+    }
+    &__img {
+        max-width: 700px;
+        padding: 20px 0 0 70px;
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

@@ -1,16 +1,85 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet"
         href="/css/style.min.css" />
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
   <title>Document</title>
 </head>
 
 <body>
+  <header class="header">
+    <div class="header__container">
+        <div class="header__logo">
+            <img src="../images/logo.svg"
+                 alt="logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-menu">
+                <li class="header__nav-menu-item">
+                    <a href="#"
+                       class="header__nav-menu-item-link">Features</a>
+                </li>
+                <li class="header__nav-menu-item">
+                    <a href="#"
+                       class="header__nav-menu-item-link">Pricing</a>
+                </li>
+                <li class="header__nav-menu-item">
+                    <a href="#"
+                       class="header__nav-menu-item-link">Blog</a>
+                </li>
+                <li class="header__nav-menu-item">
+                    <a href="#"
+                       class="header__nav-menu-item-link">Docs</a>
+                </li>
+                <li class="header__nav-menu-item">
+                    <a href="#"
+                       class="header__nav-menu-item-link">Changelog</a>
+                </li>
+                <li class="header__nav-menu-item">
+                    <a href="#"
+                       class="header__nav-menu-item-link">We're hiring</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__btn">Login</div>
+    </div>
+</header>
+  <section class="hero">
+    <div class="container">
+        <div class="hero__wrapper">
+            <div class="hero__info">
+                <div class="hero__info-text">
+                    <h1 class="hero__info-text-title">Always <br /> Ready to Code.</h1>
+                    <p class="hero__info-text-descr">Spin up fresh, automated dev environments for each task, in the
+                        cloud, in seconds.</p>
+                </div>
+                <div class="hero__info-action">
+                    <div class="hero__info-action-btn">Try Now</div>
+                    <p class="hero__info-action-descr">Open a workspace. <br /> Start from any Git context.</p>
+                </div>
+                <div class="hero__info-company">
+                    <div class="hero__info-company-logo gitlab"></div>
+                    <div class="hero__info-company-logo github"></div>
+                    <div class="hero__info-company-logo gitbucket"></div>
+                </div>
+            </div>
+            <div class="hero__img">
+                <img src="../images/hero-bg.webp"
+                     alt="hero bg">
+            </div>
+        </div>
+    </div>
+</section>
   <script src="js/main.min.js"></script>
 </body>
 
