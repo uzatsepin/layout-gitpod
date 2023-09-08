@@ -66,12 +66,12 @@
             }
             &.chrome {
                 &::before {
-                    background-image: url('../../images/chrome.svg');
+                    background-image: url('./images/chrome.svg');
                 }
             }
             &.firefox {
                 &::before {
-                    background-image: url('../../images/firefox.svg');
+                    background-image: url('./images/firefox.svg');
                 }
             }
         }

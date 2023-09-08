@@ -61,13 +61,13 @@
                 height: 29px;
                 width: 29px;
                 &.gitlab {
-                    background-image: url('../../images/gitlab.svg');
+                    background-image: url('./images/gitlab.svg');
                 }
                 &.github {
-                    background-image: url('../../images/github.svg');
+                    background-image: url('./images/github.svg');
                 }
                 &.gitbucket {
-                    background-image: url('../../images/gitbucket.svg');
+                    background-image: url('./images/gitbucket.svg');
                 }
             }
         }
