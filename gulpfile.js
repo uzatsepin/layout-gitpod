@@ -131,5 +131,5 @@ exports.scripts = scripts
 exports.watching = watching
 exports.includeHtml = includeHtml
 
-exports.build = series(cleanDist, building)
+exports.build = series(building)
 exports.default = parallel(styles, images, scripts, includeHtml, watching)
