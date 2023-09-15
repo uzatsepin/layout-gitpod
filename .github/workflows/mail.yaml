@@ -18,3 +18,9 @@ jobs:
                   username: zats
                   password: Pa3wtj1X
                   server-dir: www/razdev.online/gh-actions/
+                  exclude: |
+                      **/app/**
+                      **.gitignore**
+                      **gulpfile.js**
+                      **package.json**
+                      **package-lock.json**
